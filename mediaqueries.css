@@ -1,0 +1,77 @@
+:root{
+    --rosita:rgb(197, 106, 199);
+}
+@media (max-width:992px){
+    .hero-presentation{
+        text-align: center;
+        width: 90%;
+        align-items: center;
+    }
+    .hero-presentation h1{
+        display: block;
+        width: 100%;
+    }
+    .hero-presentation p{
+        max-width: 80%;
+        font-size: 16px;
+    }
+    .button-container{
+        justify-content: center;
+    }
+    .hero-img{
+        display: none;
+    }
+    #about{
+        font-size: 15px;
+    }
+    #contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .info-container{
+        gap: 50px;   
+    }
+    .info-container h2{
+        text-align: center;
+    }
+}
+@media (max-width: 576px){
+    .navbar ul{
+        background: #ee9ca7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #c150c5, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #c150c5, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        width: 100%;
+        height: calc(100vh - 80px);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(200%);
+        transition: all 0.4s ease-out;
+    }
+    .navbar i{
+        display: block;
+    }
+    
+    #toggle-menu:checked ~ .navbar-list{
+        transform: translateX(0%);
+        transition: all 0.4s ease-in;
+    }
+    .hero-presentation p{
+        max-width: 100%;
+    }
+    .contact-info-container{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .info-column{
+        align-items: center;
+    }
+    iframe{
+        height: 300px;
+        width: 100%;
+    }
+}
