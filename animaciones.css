@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+}  
 .logo {
     transition: all 0.5s linear;
     border-radius: 80%;
@@ -29,7 +33,9 @@
     transform: scaleX(1);
 }
   
-
+.hero-presentation h1 {
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+  }
 
 
 
@@ -117,3 +123,60 @@
     margin-top: 30px;
     flex-wrap: wrap;
 }
+
+.hero-presentation span {
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 100%;
+    
+    animation: typing 2s steps(16), blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+    
+    @keyframes typing {
+    
+    from { width: 0}
+}
+    
+    @keyframes blink {
+     50% { border-color: transparent }
+}
+
+
+@keyframes fade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+  
+  @keyframes slide-up {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0);
+    }
+}
+  
+  @keyframes slide-right {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+}
+  
+.hero-presentation h1 {
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+.hero-presentation p {
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+    animation-delay: 0.3s;
+}
+  
