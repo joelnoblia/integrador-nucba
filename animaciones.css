@@ -134,12 +134,12 @@ html {
     overflow: hidden;
 }
     
-    @keyframes typing {
+@keyframes typing {
     
     from { width: 0}
 }
     
-    @keyframes blink {
+@keyframes blink {
      50% { border-color: transparent }
 }
 
@@ -178,5 +178,17 @@ html {
     opacity: 0;
     animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
     animation-delay: 0.3s;
+}
+
+
+.hero-presentation a {
+    opacity: 0;
+    animation: fade 0.8s ease-in forwards, slide-up 0.9s ease-in-out;
+    animation-delay: 0.4s;
+}
+.hero-img {
+    opacity: 0;
+    animation: fade 1s ease-in forwards, slide-right 1.3s ease-in-out;
+    animation-delay: 0.2s;
 }
   
