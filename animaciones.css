@@ -108,7 +108,7 @@ html {
     display: block;
     border-right: 4px solid;
     width: 100%;
-
+    white-space: nowrap;
     animation: typing 2s steps(16), blink .5s infinite step-end alternate;
     overflow: hidden;
 }
