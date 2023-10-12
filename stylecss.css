@@ -218,6 +218,7 @@ main{
 }
 .info-column a{
     text-decoration: none;
+    color: #c150c5;
 }
 iframe{
     height: 350px;

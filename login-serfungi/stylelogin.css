@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;  
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.3)), url(../assets/bg-hongos4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.datos-login{
+    width: 350px;
+    height: 410px;
+    color: rgb(255, 250, 250);
+    top:30%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 90px 30px;  
+}
+
+.datos-login .logo-login{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    position: static;
+    top: -50px;
+    left: calc(50% - 50px);
+    padding-top: 0px;
+}
+
+.datos-login label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+.datos-login h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+   
+}
+.datos-login input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.datos-login input[type="text"],
+.datos-login input[type="password"]{
+border: none;
+ border-bottom: 3px solid #d76dd0;
+background: transparent;
+outline: none;
+height: 40px;
+color: rgb(255, 254, 254);
+font-size: 16px;
+
+}
+
+.datos-login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #d76dd0;
+    color: #000000;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.datos-login a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+}
+.datos-login a:hover{
+    color: #d76dd0;
+}

@@ -72,7 +72,7 @@ html {
     transform: perspective(600px) rotateY(180deg);
     background-color: #FBDA61;
     background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-
+    font-size: 14px;
     padding: 15px;
     color: #f3f3f3;
     display: flex;
