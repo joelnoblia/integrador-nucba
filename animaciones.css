@@ -35,7 +35,7 @@ html {
   
 .hero-presentation h1 {
     animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
-  }
+}
 
 
 
@@ -115,6 +115,7 @@ html {
     gap: 30px;
     padding: 70px 0px;
     color: #f3f3f3;
+    width: 100%;
 }
 .cards-fungi-container{
     display: flex;
@@ -126,7 +127,6 @@ html {
 
 .hero-presentation span {
     display: block;
-    white-space: nowrap;
     border-right: 4px solid;
     width: 100%;
     
