@@ -75,3 +75,9 @@
         width: 100%;
     }
 }
+
+@media (max-width: 482px){
+    .hero-presentation h1{
+        font-size: 30px;
+    }  
+}
