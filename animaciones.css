@@ -107,9 +107,11 @@ html {
 .hero-presentation span {
     display: block;
     border-right: 4px solid;
+    white-space: nowrap;
     width: 100%;
     animation: typing 2s steps(16), blink .5s infinite step-end alternate;
     overflow: hidden;
+
 }
     
 @keyframes typing {
