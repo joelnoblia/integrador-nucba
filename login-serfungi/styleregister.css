@@ -85,3 +85,11 @@ font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
 }
+
+input::placeholder{
+    color: #f2c293;
+    font-size: 14px;
+}
+input{
+    font-weight: bold;
+}

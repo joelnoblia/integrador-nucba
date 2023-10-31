@@ -82,3 +82,7 @@ font-size: 16px;
 .datos-login a:hover{
     color: #d76dd0;
 }
+input::placeholder{
+    color: #d28df5;
+}
+
