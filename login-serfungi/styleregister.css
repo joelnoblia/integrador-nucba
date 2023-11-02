@@ -66,7 +66,7 @@ body{
 .datoslogin input[type="text"],
 .datoslogin input[type="password"]{
 border: none;
-border-bottom: 3px solid #d76dd0;
+border-bottom: 3px solid #f2c293;
 background: transparent;
 outline: none;
 height: 40px;

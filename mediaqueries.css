@@ -12,7 +12,9 @@
     }
     .hero-presentation h1{
         display: block;
-        width: 65%;
+        width: 100%;
+        max-width: 500px;
+        min-width: unset; 
     }
     .hero-presentation p{
         max-width: 80%;

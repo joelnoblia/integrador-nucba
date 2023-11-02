@@ -71,7 +71,9 @@
     .datoslogin label{
         font-size: 17px;
     }
-
+    input{
+        font-weight: normal;
+    }
 }
 
 
@@ -142,7 +144,6 @@
     .datoslogin label{
         font-size: 13px;
     }
-
 }
 
 @media (max-width: 480px) {
@@ -166,7 +167,7 @@
     .datoslogin input[type="submit"]{
    
         height: 30px;
-    
+        
         font-size: 12px;
         border-radius: 16px;
     }
